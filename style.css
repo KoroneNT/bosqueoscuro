@@ -1,0 +1,95 @@
+body {
+    background-image: url(img/f2.jpg);
+    background-size: cover;
+}
+
+h1 {
+    font-family: "Orbitron", sans-serif;
+    display: grid;
+    place-content: center;
+    font-size: 60px;
+}
+
+nav ul {
+    background-color: rgb(50, 47, 47);
+    border-radius: 10px;
+    list-style-type: none;
+    padding: 20px;
+    margin: 0;
+}
+
+nav li {
+    font-family: "Inconsolata", monospace;
+    display: inline;
+    margin-right: 120px;
+    margin-left: 120px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+nav a:hover {
+    color: #007bff;
+}
+
+.intro,
+p {
+    font-family: "Inconsolata", monospace;
+    font-size: 28px;
+    color: white;
+}
+
+nav,
+img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.fermi,
+p {
+    font-family: "Inconsolata", monospace;
+    font-size: 28px;
+    color: white;
+}
+
+
+
+.fermi,
+iframe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.respuesta,
+p {
+    font-family: "Inconsolata", monospace;
+    font-size: 28px;
+    color: white;
+}
+
+.bosque,
+p {
+    font-family: "Inconsolata", monospace;
+    font-size: 28px;
+    color: white;
+}
+
+.extra,
+p {
+    font-family: "Inconsolata", monospace;
+    font-size: 28px;
+    color: white;
+}
+
+footer {
+    background-color: rgb(82, 82, 82);
+    display: grid;
+    place-content: center;
+    border-radius: 10px;
+}
